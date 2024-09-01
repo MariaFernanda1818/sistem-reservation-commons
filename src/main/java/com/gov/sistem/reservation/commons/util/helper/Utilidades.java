@@ -1,9 +1,12 @@
 package com.gov.sistem.reservation.commons.util.helper;
 
+import com.gov.sistem.reservation.commons.util.enums.InicialesCodEnum;
+
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.Random;
 
 public class Utilidades {
 
@@ -26,6 +29,8 @@ public class Utilidades {
             throw new IllegalArgumentException("Error de conversión de tipos: " + e.getMessage(), e);
         }
     }
-
+    public static String generarCodigo(InicialesCodEnum inicial){
+        return new StringBuilder().append(inicial.getDescripcion()).append(1000 + new Random().nextInt(9000)).toString();
+    }
 
 }
