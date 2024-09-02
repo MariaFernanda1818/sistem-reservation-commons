@@ -5,10 +5,10 @@ import lombok.Data;
 
 @Data
 @Embeddable
-public class ReservaServicioId {
+public class AfiliadoServicioId {
 
-    private String codigoReservaFk;
+    private String codigoAfiliado;
 
-    private String codigoServicioFk;
+    private  String codigoServicio;
 
 }

@@ -1,7 +1,6 @@
 package com.gov.sistem.reservation.commons.dto;
 
 import com.gov.sistem.reservation.commons.util.enums.TipoAfiliadoEnum;
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class TipoAfiliadoDTO {
+public class  TipoAfiliadoDTO {
 
     private Long idTipoAfiliado;
 
