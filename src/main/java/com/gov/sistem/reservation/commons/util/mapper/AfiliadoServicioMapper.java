@@ -1,8 +1,6 @@
 package com.gov.sistem.reservation.commons.util.mapper;
 
-import com.gov.sistem.reservation.commons.dto.AfiliadoDTO;
 import com.gov.sistem.reservation.commons.dto.AfiliadoServicioDTO;
-import com.gov.sistem.reservation.commons.entity.AfiliadoEntity;
 import com.gov.sistem.reservation.commons.entity.AfiliadoServicioEntity;
 import org.mapstruct.Mapper;
 

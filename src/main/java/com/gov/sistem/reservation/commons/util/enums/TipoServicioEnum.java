@@ -6,8 +6,11 @@ import lombok.Getter;
 public enum TipoServicioEnum {
 
     SPA("SPA"),
-    CUARTOS("CUARTOS"),
-    COMIDAS("COMIDAS");
+    CUARTO("CUARTO"),
+    LICOR("LICOR"),
+    SHOWS("SHOWS"),
+    COMIDAS("COMIDAS"),
+    BEBIDAS("BEBIDAS");
 
     private final String descripcion;
 
