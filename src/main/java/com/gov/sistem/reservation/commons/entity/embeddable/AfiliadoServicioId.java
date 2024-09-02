@@ -1,6 +1,7 @@
 package com.gov.sistem.reservation.commons.entity.embeddable;
 
 import jakarta.persistence.Embeddable;
+import jakarta.persistence.Transient;
 import lombok.Data;
 
 @Data
@@ -8,7 +9,6 @@ import lombok.Data;
 public class AfiliadoServicioId {
 
     private String codigoAfiliado;
-
     private  String codigoServicio;
 
 }
