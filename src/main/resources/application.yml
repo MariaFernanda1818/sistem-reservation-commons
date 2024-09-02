@@ -1,4 +1,7 @@
 spring:
+  sql:
+    init:
+      mode: always
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
@@ -7,10 +10,8 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     show-sql: true
-    properties:
-      hibernate:
-        default_schema: reservation
+    defer-datasource-initialization: true
   application:
     name: commons
